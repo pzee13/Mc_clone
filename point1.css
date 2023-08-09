@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #292929;
+    cursor: pointer;
+}
+.header{
+    float: left;
+    clear: none;
+    width: 100%;
+    height: 140px;
+    border-bottom: gray;
+}
+.h1{
+    height: 125px;
+    display: block;
+    padding-top: 15px;
+    border-bottom: solid rgba(177, 170, 170, 0.293);
+   
+}
+.h2{
+    display: grid;
+    max-width: 1120px;
+    height: 125px;
+    grid-template-columns: 165px auto auto auto;
+    padding-left: 170px;
+    
+}
+.logo{
+    width: 81pt;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 81pt;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+.navbar{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 5;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+    
+}
+.firstnav{
+    display: flex;
+    align-items: top;
+}
+.firstnav1{
+    margin-right: 30px;
+}
+.button1{
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    color: #292929;
+    cursor: pointer;
+}
+.but{
+   border: none;
+}
+.firstnav2{
+    display: flex;
+    margin-left: 0;
+}
+.l1{
+    margin-right: 30px;
+    font-size: 14px;
+    color: #292929;
+    background-color: transparent;
+    text-align: right;
+}
+.l2{
+    font-size: 14px;
+    color: #292929;
+    background-color: transparent;
+    text-align: right;
+
+}
+.secondnav{
+    display: flex;
+}
+.secondnav1{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.secondnav2{
+    color: #006bae;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+.secondnav3{
+    display: flex;
+    background-color: #ffbc0d;
+    padding: 6px 20px;
+    border-radius: 3px;
+    
+
+}
+.head2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.nav2{
+    display: flex;
+    padding-right: 2px;
+}
+.nav21 button{
+    background-color: transparent;
+    border: none;
+    margin-right: 28px;
+
+
+}
+.but1{
+    border: none;
+}
+.nav22{
+    margin-right: 26px;
+}
+.nav23{
+    margin-right: 26px;
+}
+.nav24{
+    margin-right: 26px;
+}
+.nav25{
+    margin-right: 26px;
+}
+.nav26{
+    margin-right: 26px;
+}
+.nav27{
+    margin-right: 26px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 60% 27%;
+    width: 91%;
+    padding-top: 100px;
+    padding-left: 100px
+   
+}
+.main1{
+  display: grid;
+  padding-left: 100px;
+  
+}
+.im1{
+    height: 309px;
+}
+.text1{
+    display: grid;  
+}
+.he1{
+   font-weight: 700;
+    font-size: 37px;
+    text-align: left;
+    padding-bottom: 25px;
+    font: bolder;
+}
+.he2{
+    padding-bottom: 25px;
+}
+.he3{
+    font-size: 10px;
+    padding-bottom: 25px;
+}
+.text1 button{
+    background-color: #ffbc0d;
+    border: none;
+    padding: 15px;
+    padding: 20px;
+    width: 220px;
+    align-items: start;
+    border-radius: 3px;
+}
+.footer{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 200px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 4;
+    padding-left: 200px;
+    padding-bottom: 100px;
+
+}
+.footerbase{
+    display: block;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.ftb1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 46px;
+    border-bottom: 1px solid #292929;
+}
+.ftb2{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 66%; 
+    justify-content: flex-start;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    height: 30px;
+    
+}
+.ima{
+    padding-right: 19px;
+}
+.ftb3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 34%;
+    justify-content: flex-end;
+}
+.last{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.last1{
+    display: flex;
+    margin-top: 4px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 66.66%;
+}
+.last11{
+    display:flex;
+    justify-content: normal;
+    align-items: center;
+    list-style: none;
+}
+.last12{
+    display: flex;
+    display: list-item;
+    margin-right: 40px;
+    
+}
+.last21{
+    display: flex;
+    
+}
+.last21 img{
+    height: 28px;
+    width: 28px;
+}
